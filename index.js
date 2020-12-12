@@ -154,4 +154,4 @@ client.on('message', async message => {
 
 
 //token
-client.login(process.TOKEN)
+client.login(process.env.TOKEN)
